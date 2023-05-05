@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    height: 90px;
+    background-color: #233B6F;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    background-color: rgb(11, 11, 241);
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+
+.background{
+    background: url('../Images/home-top-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   /* max-width: 50%;  */
+    margin: auto;
+    color: white;
+    height: 70%;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.heading-sm {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.heading-bg {
+    font-family: 'Inter';
+    font-size: 45px;
+    font-style: normal;
+    line-height: 75px;
+
+    color: #FFFFFF;
+}
+
+.text-small {
+    font-size: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    
+    padding: 12px 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: none;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.btn:hover{
+    background: #3E7BFF;
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-heading{
+    font-family: 'Inter';
+    font-size: 45px;
+    font-style: normal;
+    line-height: 75px;
+    color: #233B6F;
+    text-align: center;
+    margin: 20px 80px;
+    padding: 20px 170px;
+}
+.about-para{
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 20px;
+       
+    text-align: center;
+    color: #233B6F;
+    margin: 00px 85px;
+    padding: 0px 145px;
+
+}
+
+
+
+
+
+.line{
+    width: 33px;
+    background-color: aliceblue;
+    height: 4px;
+    margin: 5px 3px;
+}
+ .burger{
+     display: none;
+     position: absolute;
+     cursor: pointer;
+     right: 15%;
+     top: 15px;
+ }   
